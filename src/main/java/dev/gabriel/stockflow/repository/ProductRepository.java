@@ -1,13 +1,8 @@
 package dev.gabriel.stockflow.repository;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Repository;
 
-@Service
-public class ProductRepository {
-
-    @Autowired
-    private ProductRepository repository;
-
+@Repository
+public class ProductRepository  {
 
 }
